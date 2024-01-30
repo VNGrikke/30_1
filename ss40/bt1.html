@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Information</title>
+</head>
+<body>
+    <h1>Personal Information</h1>
+    <form id="infoForm">
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" required>
+        <label for="age">Age:</label>
+        <input type="number" id="age" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+        <button type="button" onclick="savePersonalInfo()">Save Information</button>
+    </form>
+    <h2>Stored Personal Information:</h2>
+    <div id="displayInfo"></div>
+    <script src="bt1.js"></script>
+</body>
+</html>
